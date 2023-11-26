@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sieh - Home</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="music.html">Music</a>
+      <a href="social-media.html">Social Media</a>
+      <a href="events.html">Events</a>
+    </div>
+    </div>
+
+  <h2>About Sieh</h2>
+  <p>Sieh's Bio</p>
+
+  <p>
+    SIEH , " DJ SIEH " ITS AN OPEN FORMAT DJ, MOSTLY KNOW TO BE MORE ACTIVE AT SOME OF THE HOTTEST CLUBS TO HOST LATIN NIGHTS IN THE DENVER NIGHTLIFE (SUCH AS LIME ,OASIS ,CLUB VINYL , QUIJOTE'S , ZOCALO , DORCHESTER , MIAMI VIBEZ , AMONG OTHERS ) , SIEH ALSO HAS HAD THE OPPORTUNITY TO BE THE OPENER DJ HERE IN DENVER CO. FOR URBAN , REGGAETON ,LATIN TRAP ARTISTS SUCH AS " BRYTIAGO AND JON Z  (THIS LAST ARTIST MOST KNOWN FOR THE HIT GO LOKO FT. YG & TYGA) . HIS LIVE MIXING GO FROM ALL KINDS OF LATIN URBAN , TROPICAL GENRES AND GIVES YOU A LITTLE TASTE OF SOME OF THE GREATEST GLOBAL AND WORLD SOUNDS FILLED WITH DRUMS ,  HE IS BEEN REPPIN FOR THE " DJ CITY DENVER " TEAM SINCE EARLY ( 2019 ) HE WAS FEATURED ON THE " DJ CITY LATINO " NEWS ON APRIL ALSO FEATURED A LATIN INFLUENCED MIX FOR THE '' DJ CITY PODCAST " , HE ALSO HAS BEEN FEATURED ON " THE PALETERO MIX " EPISODE 13 , AND ON MYXX FM FROM DALLAS TX, LATELY HE HAVE BEEN SEEN DOING MORE OPEN FORMAT DJ SETS, WITHOUT LOOSING HIS LATIN TOUCH , AT THE 2 LOCATIONS OF TOP GOLF IN THE STATE OF CO.AND AT SOME CLUBS , BARS , LOUNGES ON THE DENVER DOWNTOWN AREA
+  </p>
+
+</body>
+
+</html>
+  <style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+        background-color: darkblue; /* Change the background color to dark blue */
+        overflow: hidden;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        background-color: gray;
+    }
+
+  </style>
