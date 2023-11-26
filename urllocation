@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>No Tickets</title>
+    <head>
+    </head>
+    <body>
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="music.html">Music</a>
+        <a href="social-media.html">Social Media</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </body>
+    <style>
+      body {
+          margin: 0;
+          padding: 0;
+          background-color: white;
+          font-family: Arial, sans-serif;
+      }
+
+      .navbar {
+          background-color: darkblue; /* Change the background color to dark blue */
+          overflow: hidden;
+      }
+
+      .navbar a {
+          float: left;
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+
+      .navbar a:hover {
+          background-color: gray;
+      }
+
+    </style>
+    <h3>No Tickets Available</h3>
+    <p>Sorry, there are no tickets available at this time.</p>
+    <p>Please check back later.</p>
+  
