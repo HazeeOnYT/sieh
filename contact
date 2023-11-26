@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ... (head content remains unchanged) ... -->
+</head>
+<title>Sieh - Contact</title>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="music.html">Music</a>
+        <a href="social-media.html">Social Media</a>
+        <a href="events.html">Events</a>
+    </div>
+
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form>
+          <h1>Contact Form</h1></h1>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe3RvKJw4uN_thpNeVnZ3_bFCXrk421iwQYvYsNo8HgGN1rWQ/viewform?embedded=true" width="640" height="721" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </form>
+  <style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+        background-color: darkblue;
+        overflow: hidden;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        background-color: gray;
+    }
+
+    .contact-container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid darkblue;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-container h2 {
+        color: darkblue;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid darkblue;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .contact-form textarea {
+        height: 150px;
+    }
+
+    .contact-form input[type="submit"] {
+        background-color: darkblue;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .contact-form input[type="submit"]:hover {
+        background-color: navy;
+    }
+
+  </style>
