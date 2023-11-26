@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sieh - Home</title>
+</head>
+
+<body>
+
+  
+  
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="music.html">Music</a>
+      <a href="social-media.html">Social Media</a>
+      <a href="events.html">Events</a>
+    </div>
+    </div>
+
+  <div class="social-media-container">
+      <h2>Sieh's Social Media</h2>
+      <ul>
+          <li><a href="https://www.tiktok.com/@___sieh___?_t=8hBBWGwNtal&_r=1" target="_blank">TikTok</a></li>
+          <li><a href="https://on.soundcloud.com/tA4ErMNF1xzxougy5" target="_blank">SoundCloud</a></li>
+          <li><a href="https://instagram.com/___sieh___?igshid=NW5rcngyNWIwYW90&utm_source=qr" target="_blank">Instagram</a></li>
+         <li><a href="https://www.bandsintown.com/a/13743140-sieh?came_from=257&utm_medium=web&utm_source=home&utm_campaign=search_bar" target="_blank">Bandsintown</a></li>
+        <li><a href="https://sieh.bandcamp.com" target="_blank">Bandcamp</a></li>
+        <li><a href="https://www.mixcloud.com/sieh656/" target="_blank">Mixcloud</a></li>
+    
+          <!-- Add more social media profiles as needed -->
+      </ul>
+  </div>
+
+
+</body>
+
+</html>
+  <style>
+body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+        background-color: darkblue; /* Change the background color to dark blue */
+        overflow: hidden;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        background-color: gray;
+    }
+
+  </style>
