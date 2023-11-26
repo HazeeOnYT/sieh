@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sieh - Home</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="music.html">Music</a>
+      <a href="social-media.html">Social Media</a>
+      <a href="events.html">Events</a>
+    </div>
+    </div>
+
+  <div class="events-container">
+      <!-- Existing event items here -->
+
+      <!-- Concerts Near You Section -->
+      <div class="concerts-near-you">
+          <h2>Concerts Near You</h2>
+
+          <div class="event-item">
+              <p>Content</p>
+              <h3>Place</h3>
+              <p>Location</p>
+              <a href="URLLocation.html" target="_blank">Tickets</a>
+          </div>
+<h2>All Concerts & Live Streams</h2>
+          <!-- Add more concert events as needed -->
+      </div>
+  </div>
+
+
+</body>
+
+</html>
+  <style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Navbar styles (same as previous) */
+
+    .events-container {
+        padding: 20px;
+    }
+
+    .event-item {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .concerts-near-you {
+        margin-top: 30px;
+    }
+
+    .concerts-near-you h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .concerts-near-you .event-item {
+        background-color: #e6f7ff;
+    }
+
+    .concerts-near-you .event-item p {
+        margin: 5px 0;
+    }
+
+    .concerts-near-you .event-item a {
+        display: inline-block;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+
+    .concerts-near-you .event-item a:hover {
+        background-color: #0056b3;
+    }
+
+    /* Footer styles (same as previous) */
+
+    /* Responsive styles (same as previous) */
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+        background-color: darkblue; /* Change the background color to dark blue */
+        overflow: hidden;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        background-color: gray;
+    }
+
+  </style>
