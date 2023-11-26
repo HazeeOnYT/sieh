@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Sieh - Music</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a> <!-- Link back to the main page (index.html) -->
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="music.html">Music</a>
+        <a href="social-media.html">Social Media</a>
+        <a href="events.html">Events</a>
+    </div>
+
+    <div class="music-container">
+        <div class="music-item">
+            <h2><a href="https://www.mixcloud.com/beatsource/dj-sieh-latin-mix/" target="_blank">DJ Sieh (Latin Mix)</a></h2>
+            <a href="https://www.mixcloud.com/beatsource/dj-sieh-latin-mix/" target="_blank">
+                <img src="https://thumbnailer.mixcloud.com/unsafe/144x144/extaudio/b/a/b/f/b9ac-653f-424c-949f-7f4b5ec481f4" alt="Sieh">
+            </a>
+        </div>
+
+        <div class="music-item">
+            <h2><a href="https://www.mixcloud.com/sieh656/latin-techtech-house-mix-sept2022/">LATIN TECH/TECH HOUSE MIX SEPT.2022</a></h2>
+            <a href="https://www.mixcloud.com/sieh656/latin-techtech-house-mix-sept2022/">
+                <img src="https://thumbnailer.mixcloud.com/unsafe/144x144/extaudio/7/3/d/c/20ad-2c91-4577-9bbb-3a277614b6b9" alt="Sieh">
+            </a>
+        </div>
+      <p>More music coming soon!</p>
+    </div>
+
+        <!-- Add more music items as needed -->
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Sieh. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+<style>
+  body {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+      background-color: darkblue; /* Blue tab for the navigation bar */
+      color: white;
+      overflow: hidden;
+  }
+
+  .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  .navbar a:hover {
+      background-color: gray; /* Gray background on hover */
+      color: white; /* Text color on hover */
+  }
+
+  .music-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+  }
+
+  .music-item {
+      text-align: center;
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid darkblue;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .music-item h2 {
+      margin-bottom: 10px;
+      font-size: 1.2em;
+      color: darkblue;
+  }
+
+  .music-item audio {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .footer {
+      background-color: darkblue; /* Dark blue footer */
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+      .navbar a {
+          width: 100%;
+          text-align: center;
+      }
+
+      .music-item {
+          width: 80%;
+      }
+  }
+
+</style>
